@@ -23,10 +23,8 @@ Type `npm test`.
 
 ### tape
 
-To add tape for testing, (I think) babel is needed
-
 [tape](https://github.com/substack/tape) is a simple testing framework that produces TAP output. TAP is a standardized protocol for automated tests. To beautify the output, [faucet](https://github.com/substack/faucet) is used.
 
-For ES6 module support, the tests are run through [babel](https://babeljs.com) via `babel-tape-runner`, using the `env` preset.
+For ES6 module support, the tests are run through [babel](https://babeljs.io) via `babel-tape-runner`, using the `env` preset.
 
 
