@@ -1,0 +1,28 @@
+{
+  "name": "javascript-tests",
+  "version": "1.0.0",
+  "description": "A comparison of test frameworks in javascript",
+  "main": "public/index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terabaud/javascript-tests.git"
+  },
+  "keywords": [],
+  "author": "Lea Rosema",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terabaud/javascript-tests/issues"
+  },
+  "homepage": "https://github.com/terabaud/javascript-tests#readme",
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "http-server": "^0.11.1",
+    "standard": "^11.0.1"
+  }
+}
