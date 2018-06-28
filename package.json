@@ -2,11 +2,12 @@
   "name": "javascript-tests",
   "version": "1.0.0",
   "description": "A comparison of test frameworks in javascript",
-  "main": "public/index.js",
+  "main": "public/index.mjs",
   "scripts": {
     "pretest": "standard",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server",
+    "browser": "http-server",
+    "start": "node --experimental-modules public/index.mjs",
     "deploy": "gh-pages -d public"
   },
   "repository": {
