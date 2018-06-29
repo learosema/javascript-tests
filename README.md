@@ -38,14 +38,11 @@ No other configuration is needed.
 
 [jest](http://jestjs.io/) by facebook features zero (minimal) configuration, test parallelization and built-in code coverage reports.
 
-### jasmine
-
-[jasmine](https://jasmine.github.io/) is a BDD testing framework by Pivotal Labs.
-
-### should.js
-
-[ShouldJS](https://shouldjs.github.io) is another assertion library and independent from testing frameworks.
-
 ### Enzyme
 
 [Enzyme](https://github.com/airbnb/enzyme) by airbnb is a set of testing utilities for React applications and can be used by any common testing framework.
+
+### Other testing frameworks (not covered here)
+
+* [jasmine](https://jasmine.github.io/), a BDD testing framework by Pivotal Labs.
+* [ShouldJS](https://shouldjs.github.io), another assertion library
