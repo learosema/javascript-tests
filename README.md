@@ -45,4 +45,4 @@ No other configuration is needed.
 ### Other testing frameworks (not covered here)
 
 * [jasmine](https://jasmine.github.io/), a BDD testing framework by Pivotal Labs.
-* [ShouldJS](https://shouldjs.github.io), another assertion library
+* [ShouldJS](https://shouldjs.github.io) is another assertion library and very similar to chai.
