@@ -3,4 +3,4 @@ parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRe
 },{}],4:[function(require,module,exports) {
 "use strict";var o=require("./math.js");console.log("2 + 2 = "+(0,o.add)(2,2)),console.log("2 * 3 = "+(0,o.mul)(2,3)),console.log("4 / 2 = "+(0,o.div)(4,2));
 },{"./math.js":6}]},{},[4], null)
-//# sourceMappingURL=/src.6fc7bb93.map
+//# sourceMappingURL=https://github.com/terabaud/javascript-tests/src.6fc7bb93.map
