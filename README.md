@@ -15,10 +15,11 @@ Alternatively, you can also just browse to https://terabaud.github.io/javascript
 ## What are we going to test?
 
 For now, we are going to test a pretty boring [math.js](https://github.com/terabaud/javascript-tests/blob/master/src/math.js) library.
+As a pretest step, linting is done via  [standardjs](https://standardjs.com).
 
 ## Testing
 
-Type `npm test`. I am going to use a separate branch for each testing framework.
+Type `npm test` to run all the tests.
 
 ### tape
 
@@ -33,6 +34,10 @@ No other configuration is needed.
 
 [mocha](https://mochajs.org) is a commonly used testing framework for node and in the browser. It is often used in combination with [chai](https://chaijs.com), a BDD/TDD assertion library.
 
+### Jest
+
+[jest](http://jestjs.io/) by facebook features zero (minimal) configuration, test parallelization and built-in code coverage reports.
+
 ### jasmine
 
 [jasmine](https://jasmine.github.io/) is a BDD testing framework by Pivotal Labs.
@@ -40,10 +45,6 @@ No other configuration is needed.
 ### should.js
 
 [ShouldJS](https://shouldjs.github.io) is another assertion library and independent from testing frameworks.
-
-### Jest
-
-[jest](http://jestjs.io/) by facebook features zero (minimal) configuration, test parallelization and built-in code coverage reports.
 
 ### Enzyme
 
