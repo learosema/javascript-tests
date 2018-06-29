@@ -1,21 +1,19 @@
 # javascript-tests
 A comparison of test frameworks in javascript
 
-In this repo, I am going to experiment with several test frameworks against a simple math.js library and make a comparison of these.
-For simplicity, I'm not going to use babel transpilation or bundling. 
+In this repo, I am going to experiment with several test frameworks that are available in JavaScript. 
+On my machine, I am using the current LTS version of node in a Windows environment, but other platforms with node versions >= v8.11.3 should work fine. 
 
-This demo is using [ES6 modules directly in the browser](https://jakearchibald.com/2017/es-modules-in-browsers/). 
-You will need [a browser with module support](https://caniuse.com/#search=modules).
-
-I am using the current LTS version of node, v8.11.3. ES module support is hidden behind the flag `--experimental-modules`, so I'm running the tests through `babel`.
+For bundling and transpilation, I'm using `babel` and the [parceljs bundler](https://parceljs.org).
 
 ## running the example
 
-Type `npm start` to run the example in the console.
+Type `npm install` to install the dependencies and then type `npm start`.
+Alternatively, you can also just browse to https://terabaud.github.io/javascript-tests/ and hit F12.
 
-To run the demo in the browser, type `npm install` to install the dependencies. Then, type `npm run browser`, browse to http://localhost:8080/ and hit F12.
+## What are we going to test?
 
-You can also just browse to https://terabaud.github.io/javascript-tests/ and hit F12.
+For now, we are going to test a pretty boring [math.js](https://github.com/terabaud/javascript-test/math.js) library.
 
 ## Testing
 
@@ -23,8 +21,8 @@ Type `npm test`.
 
 ### tape
 
-[tape](https://github.com/substack/tape) is a simple testing framework that produces TAP output. TAP is a standardized protocol for automated tests. To beautify the output, [faucet](https://github.com/substack/faucet) is used.
+[tape](https://github.com/substack/tape) is a simple testing framework that produces TAP output. TAP is a standardized protocol for automated tests. 
 
-For ES6 module support, the tests are run through [babel](https://babeljs.io) via `babel-tape-runner`, using the `env` preset.
+The tests are run through `https://npmjs.com/package/babel-tape-runner`, using the `env` preset. To beautify the output, [faucet](https://github.com/substack/faucet) is used.
 
 

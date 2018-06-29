@@ -6,9 +6,8 @@
   "scripts": {
     "pretest": "standard",
     "test": "babel-tape-runner test/test.tape.js | faucet",
-    "browser": "http-server",
-    "start": "node --experimental-modules public/index.mjs",
-    "deploy": "gh-pages -d public"
+    "start": "parcel src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -26,7 +25,7 @@
     "babel-tape-runner": "^2.0.1",
     "faucet": "0.0.1",
     "gh-pages": "^1.2.0",
-    "http-server": "^0.11.1",
+    "parcel-bundler": "^1.9.3",
     "standard": "^11.0.1",
     "tape": "^4.9.1"
   }

@@ -1,5 +1,5 @@
 import { test } from 'tape'
-import { add, mul, div } from '../public/math.mjs'
+import { add, mul, div } from '../src/math'
 
 test('add(1, 2) returns 3', function ({ plan, equal }) {
   plan(1)
