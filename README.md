@@ -23,16 +23,17 @@ Type `npm test` to run all the tests.
 
 ### tape
 
-[tape](https://github.com/substack/tape) is a simple testing framework that produces TAP output. TAP is a standardized protocol for automated tests. 
+[tape](https://github.com/substack/tape) is a simple testing framework that produces [TAP](http://testanything.org/) output, a standardized protocol for automated tests. 
 
 To use tape in your project, install [tape](https://npmjs.com/package/tape), [babel-tape-runner](https://npmjs.com/package/babel-tape-runner) alongside with  [babel-preset-env](https://npmjs.com/package/babel-preset-env) or any other babel preset you like. To beautify the output, [faucet](https://github.com/substack/faucet) is used.
-To run the test via `npm test`, change the package.json scripts/test field to: `babel-tape-runner test/test.tape.js | faucet`
 
 No other configuration is needed.
 
 ### mocha and chai
 
 [mocha](https://mochajs.org) is a commonly used testing framework for node and in the browser. It is often used in combination with [chai](https://chaijs.com), a BDD/TDD assertion library.
+
+To add mocha into your project, `npm install mocha chai babel-register --save-dev` and call the tests via `mocha --require babel-register`. The require parameter is for ES6+ support. If you don't specify a file, mocha executes everything inside the `test` folder.
 
 ### Jest
 
