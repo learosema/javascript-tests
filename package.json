@@ -5,10 +5,10 @@
   "main": "public/index.mjs",
   "scripts": {
     "pretest": "standard",
-    "test": "npm run test-tape && npm run test-mocha",
+    "test": "npm run test-tape && npm run test-mocha && npm run test-jest",
     "test-tape": "babel-tape-runner test/test.tape.js | faucet",
     "test-mocha": "mocha --require babel-register test/test.mocha.js",
-    "test-jest": "jest --testRegex /__tests__/.*\\.jest\\.js$",
+    "test-jest": "jest --testRegex /test/.*\\.jest\\.js$",
     "start": "parcel src/index.html",
     "deploy": "gh-pages -d dist"
   },
