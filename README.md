@@ -33,7 +33,7 @@ No other configuration is needed.
 
 [mocha](https://mochajs.org) is a commonly used testing framework for node and in the browser. It is often used in combination with [chai](https://chaijs.com), a BDD/TDD assertion library.
 
-To add mocha into your project, `npm install mocha chai babel-register --save-dev` and call the tests via `mocha --require babel-register`. The require parameter is for ES6+ support. If you don't specify a file, mocha executes everything inside the `test` folder.
+To add mocha into your project, `npm install mocha chai babel-register --save-dev` and call the tests via `mocha --require babel-register`. The require parameter is needed for ES6+ support. If you don't specify a file, mocha executes everything inside the `test` folder.
 
 ### Jest
 
