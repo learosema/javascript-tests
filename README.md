@@ -14,7 +14,7 @@ Alternatively, you can also just browse to https://terabaud.github.io/javascript
 
 ## What are we going to test?
 
-For now, we are going to test a pretty boring [math.js](https://github.com/terabaud/javascript-test/math.js) library.
+For now, we are going to test a pretty boring [math.js](https://github.com/terabaud/javascript-tests/blob/master/src/math.js) library.
 
 ## Testing
 
