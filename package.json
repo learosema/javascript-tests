@@ -5,7 +5,9 @@
   "main": "public/index.mjs",
   "scripts": {
     "pretest": "standard",
-    "test": "babel-tape-runner test/test.tape.js | faucet",
+    "test": "npm run test-tape && npm run test-mocha",
+    "test-tape": "babel-tape-runner test/test.tape.js | faucet",
+    "test-mocha": "mocha --require babel-register test/test.mocha.js",
     "start": "parcel src/index.html",
     "deploy": "gh-pages -d dist"
   },
@@ -22,9 +24,12 @@
   "homepage": "https://github.com/terabaud/javascript-tests#readme",
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "babel-tape-runner": "^2.0.1",
+    "chai": "^4.1.2",
     "faucet": "0.0.1",
     "gh-pages": "^1.2.0",
+    "mocha": "^5.2.0",
     "parcel-bundler": "^1.9.3",
     "standard": "^11.0.1",
     "tape": "^4.9.1"
