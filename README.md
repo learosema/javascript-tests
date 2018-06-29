@@ -18,7 +18,7 @@ For now, we are going to test a pretty boring [math.js](https://github.com/terab
 
 ## Testing
 
-Type `npm test`.
+Type `npm test`. I am going to use a separate branch for each testing framework.
 
 ### tape
 
