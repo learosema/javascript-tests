@@ -38,11 +38,8 @@ No other configuration is needed.
 
 [jest](http://jestjs.io/) by facebook features zero (minimal) configuration, test parallelization and built-in code coverage reports.
 
-### Enzyme
+### Other testing frameworks and tools (not covered here)
 
-[Enzyme](https://github.com/airbnb/enzyme) by airbnb is a set of testing utilities for React applications and can be used by any common testing framework.
-
-### Other testing frameworks (not covered here)
-
+* [Enzyme](https://github.com/airbnb/enzyme) by airbnb is a set of testing utilities for React applications and can be used by any common testing framework.
 * [jasmine](https://jasmine.github.io/), a BDD testing framework by Pivotal Labs.
 * [ShouldJS](https://shouldjs.github.io) is another assertion library and very similar to chai.
